@@ -1,5 +1,5 @@
 body {
-    font-family: "Montserrat", cursive;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #title {
@@ -14,15 +14,16 @@ body {
 .navbar-brand {
     font-family: "Ubuntu";
     font-size: 2.5rem;
-    font-weight: bold;
+    font-weight: 500;
 }
 
 
 /* Nav Bar */
 
 h1 {
-    font-size: 3rem;
-    font-weight: bolder;
+    font-family: "Montserrat-Black", sans-serif;
+    font-size: 3.5rem;
+    font-weight: 900;
     line-height: 1.5;
 }
 
@@ -36,6 +37,7 @@ h1 {
 
 .nav-link {
     font-size: 1.2rem;
+    font-family: "Montserrat-light";
 }
 
 
@@ -51,4 +53,37 @@ h1 {
 .title-image {
     width: 60%;
     transform: rotate(25deg);
+}
+
+
+/* Features */
+
+#features {
+    padding: 7% 15%;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 4.5%;
+}
+
+.feature-icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.feature-icon:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+    color: #ff4c68;
+}
+
+h3 {
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+p {
+    color: #8f8f8f;
 }

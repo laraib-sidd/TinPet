@@ -36,10 +36,16 @@ p {
     padding: 7% 15%;
 }
 
-.navbar-brand {
-    font-family: "Ubuntu";
-    font-size: 2.5rem;
-    font-weight: 500;
+
+/* section */
+
+.colored-section {
+    color: #fff;
+    background-color: #ff4c68;
+}
+
+.white-section {
+    background-color: #fff;
 }
 
 
@@ -47,6 +53,12 @@ p {
 
 .navbar {
     padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: 500;
 }
 
 .nav-item {
@@ -69,11 +81,6 @@ p {
 
 /* Title section */
 
-#title {
-    color: white;
-    background-color: #ff4c68;
-}
-
 #title .container-fluid {
     padding: 3% 15% 7%;
     text-align: left;
@@ -94,7 +101,6 @@ p {
 
 #features {
     position: relative;
-    background-color: #fff;
 }
 
 .feature-box {
@@ -122,7 +128,6 @@ p {
 
 #testimonials {
     background-color: #ef8172;
-    color: #fff;
 }
 
 .testimonial-text {
@@ -165,14 +170,6 @@ p {
 
 .pricing-column {
     padding: 3% 2%;
-}
-
-
-/* Call to action */
-
-#cta {
-    background-color: #ff4c68;
-    color: #fff;
 }
 
 

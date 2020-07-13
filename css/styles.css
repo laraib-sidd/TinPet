@@ -36,6 +36,7 @@ h1 {
 }
 
 .nav-link {
+    font-weight: bold;
     font-size: 1.2rem;
     font-family: "Montserrat-light";
 }
@@ -148,30 +149,21 @@ h2 {
     padding: 3% 2%;
 }
 
-@media (max-width: 1028px) {
-    #title {
-        text-align: center;
-    }
-    .title-image {
-        position: static;
-        transform: rotate(0deg);
-    }
-}
-
 
 /* Call to action */
 
 #cta {
     background-color: #ff4c68;
+    color: #fff;
+    padding: 7% 15%;
     text-align: center;
 }
 
 .cta-title {
     font-family: "Montserrat-Black";
-    font-size: 4rem;
-    padding: 40px 150px 0px;
-    color: #fff;
-    font: weight 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    /* font: weight 900; */
 }
 
 
@@ -185,4 +177,14 @@ h2 {
 
 .cta-logo {
     padding: 0px 25px 30px;
+}
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+    .title-image {
+        position: static;
+        transform: rotate(0deg);
+    }
 }

@@ -127,3 +127,7 @@ h2 {
 .carousel-item {
     padding: 7% 15%;
 }
+
+.carousel-control-next {
+    color: black;
+}

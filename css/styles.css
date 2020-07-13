@@ -147,3 +147,9 @@ h2 {
 .pricing-column {
     padding: 3% 2%;
 }
+
+@media (max-width: 1028) {
+    .title-image {
+        position: static;
+    }
+}

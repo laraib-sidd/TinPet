@@ -173,3 +173,16 @@ h2 {
     color: #fff;
     font: weight 900;
 }
+
+
+/* Footer */
+
+#footer {
+    padding: 50px;
+    text-align: center;
+    font-weight: 900;
+}
+
+.cta-logo {
+    padding: 0px 25px 30px;
+}

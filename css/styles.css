@@ -29,11 +29,8 @@ p {
     font-weight: bold;
 }
 
-#title {
-    text-align: left;
-    color: white;
-    background-color: #ff4c68;
-}
+
+/* Containers */
 
 .container-fluid {
     padding: 7% 15%;
@@ -67,6 +64,19 @@ p {
 
 .download-button {
     margin: 5% 3% 5% 0;
+}
+
+
+/* Title section */
+
+#title {
+    color: white;
+    background-color: #ff4c68;
+}
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+    text-align: left;
 }
 
 
@@ -140,12 +150,6 @@ p {
     margin: 20px 20px 50px;
 }
 
-.carousel-item {}
-
-.carousel-control-next {
-    color: black;
-}
-
 
 /* Pricing section*/
 
@@ -183,7 +187,9 @@ p {
 }
 
 @media (max-width: 1028px) {
-    #title {}
+    #title {
+        text-align: center;
+    }
     .title-image {
         position: static;
         transform: rotate(0deg);

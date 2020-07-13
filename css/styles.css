@@ -135,4 +135,6 @@ h2 {
 
 /* Pricing section*/
 
-#pressing {}
+#pricing {
+    padding: 100px;
+}

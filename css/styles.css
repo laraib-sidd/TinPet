@@ -51,6 +51,7 @@ h1 {
 /* Title Image */
 
 .title-image {
+    position: absolute;
     width: 60%;
     transform: rotate(25deg);
 }
@@ -59,6 +60,8 @@ h1 {
 /* Features */
 
 #features {
+    position: relative;
+    background-color: #fff;
     padding: 7% 15%;
 }
 

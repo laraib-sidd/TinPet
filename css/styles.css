@@ -2,6 +2,37 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+h2 {
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 700;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Montserrat-Bold', sans-serif;
+}
+
+h3 {
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+
+/* Headings */
+
+.big-heading {
+    font-family: "Montserrat-Black", sans-serif;
+    font-size: 3.5rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
 #title {
     color: white;
     background-color: #ff4c68;
@@ -19,13 +50,6 @@ body {
 
 
 /* Nav Bar */
-
-h1 {
-    font-family: "Montserrat-Black", sans-serif;
-    font-size: 3.5rem;
-    font-weight: 900;
-    line-height: 1.5;
-}
 
 .navbar {
     padding: 0 0 4.5rem;
@@ -83,16 +107,6 @@ h1 {
     color: #ff4c68;
 }
 
-h3 {
-    font-family: 'Montserrat-Bold', sans-serif;
-    font-weight: 900;
-    font-size: 1.5rem;
-}
-
-p {
-    color: #8f8f8f;
-}
-
 
 /* Testimonial Section */
 
@@ -100,13 +114,6 @@ p {
     text-align: center;
     background-color: #ef8172;
     color: #fff;
-}
-
-h2 {
-    font-family: "Montserrat-Bold";
-    font-size: 3rem;
-    line-height: 1.5;
-    font-weight: 700;
 }
 
 .testimonial-image {
@@ -170,13 +177,13 @@ h2 {
 /* Footer */
 
 #footer {
-    padding: 50px;
+    padding: 7% 15%;
     text-align: center;
     font-weight: 900;
 }
 
 .cta-logo {
-    padding: 0px 25px 30px;
+    padding: 20px 15px 30px;
 }
 
 @media (max-width: 1028px) {
